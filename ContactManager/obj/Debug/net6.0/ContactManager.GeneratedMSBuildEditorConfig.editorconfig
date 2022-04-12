@@ -15,8 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/noorsaid/Projects/ContactManager/ContactManager
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/noorsaid/Projects/ContactManager/ContactManager/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/noorsaid/Projects/ContactManager/ContactManager/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/noorsaid/Projects/ContactManager/ContactManager/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/noorsaid/Projects/ContactManager/ContactManager/Views/Shared/_ValidationScriptsPartial.cshtml]

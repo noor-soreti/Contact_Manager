@@ -1,26 +1,19 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ContactManager.Models;
 
 namespace ContactManager.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private  ContactContext context;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    public HomeController(ContactContext ctx) => context = ctx;
 
-    public IActionResult Index()
+    public IActionResult Details(int id)
     {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
+        ViewBag.Action = "";
+        List<Contact> contacts = context.Contacts.OrderBy(i => i.ContactId).ToList();
+        return View(contacts);
     }
 
 }

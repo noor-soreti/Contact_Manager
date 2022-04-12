@@ -4,14 +4,14 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ContactManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContactManager/Models/ContactContext.cs">
-    <Files>
-      <File FileName="ContactManager/Models/ContactContext.cs" Line="29" Column="1" />
-      <File FileName="ContactManager/Models/Contact.cs" Line="32" Column="31" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="ContactManager" expanded="True" selected="True">
+            <Node name="ContactManager" expanded="True" />
+          </Node>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
